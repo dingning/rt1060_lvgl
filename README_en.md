@@ -1,5 +1,5 @@
 # Embedded GUI Contest--Intelligent control gateway
-[中文](README_zh.md) | **English**
+[中文](README.md) | **English**
 
 ## Introduction 
 The intelligent control gateway collects the equipment status information, environment data and remote control of the control node through the network;  
@@ -37,17 +37,17 @@ HTTP thread: get the weather of remote server regularly
 **Lock screen interface:clock display (periodic update), click up to enter the main interface.**  
 ![Lock screen](pic/lock.png)  
 
-**Main interface: mascot display, weather and time display (periodic update), display menu: equipment status, alarm configuration, remote synchronization.**
+**Main interface: mascot display, weather and time display (periodic update), display menu: equipment status, alarm configuration, remote synchronization.**  
 ![Main interface](pic/main.png)   
 
-**Equipment status interface:display of equipment list; equipment status: display of temperature, humidity and switch (periodic update); the switch interface can be used to control the equipment switch status at the local operation control stage.**
+**Equipment status interface:display of equipment list; equipment status: display of temperature, humidity and switch (periodic update); the switch interface can be used to control the equipment switch status at the local operation control stage.**  
 ![Equipment status interface](pic/status.png)  
 
-**Alarm configuration interface: display of equipment list, switch control of equipment alarm, temperature setting, humidity setting.**
+**Alarm configuration interface: display of equipment list, switch control of equipment alarm, temperature setting, humidity setting.**  
 ![Alarm configuration interface](pic/alarmset.png)  
 
 **Remote synchronization interface:**  
-**Mail: configure the port number, user name and password of the server address and the receiving email address. The port, user name, password and email address can be entered and modified by keyboard.**
+**Mail: configure the port number, user name and password of the server address and the receiving email address. The port, user name, password and email address can be entered and modified by keyboard.**  
 ![Mail](pic/mail.png)  
 ![Mail](pic/mailu.png)    
 ![Mail](pic/mailr.png)  
@@ -63,14 +63,14 @@ HTTP thread: get the weather of remote server regularly
 ![Alarm pop-up window](pic/alarm.png)  
 
 ## PC monitoring
-**The gateway operates normally and connects to mqtt broker (the interface can be configured later). The topic for mqtt to obtain gateway status is: status/gateway ID/get, and the topic for gateway reply is: status/gateway ID/put. The interactive JSON format is shown in the following figure:**
+**The gateway operates normally and connects to mqtt broker (the interface can be configured later). The topic for mqtt to obtain gateway status is: status/gateway ID/get, and the topic for gateway reply is: status/gateway ID/put. The interactive JSON format is shown in the following figure:**  
 ![mqtt get gateway status](pic/mqttget.png)  
 
-**Gateway alarm subject: /alarm/gateway ID/device ID, alarm JSON format is as follows:**
+**Gateway alarm subject: /alarm/gateway ID/device ID, alarm JSON format is as follows:**  
 ![mqtt receiving alarm information](pic/mqttup.png)
 
 
-**The content format of the mailbox transfer information is as follows:**
+**The content format of the mailbox transfer information is as follows:**  
 ![email receiving alarm information](pic/web.png)
 
 
