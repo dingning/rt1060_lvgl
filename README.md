@@ -16,7 +16,7 @@ PC：运行MQTT Broker、MQTTX、FTP Server、netassistant、网易邮箱查看�
 
 ## 系统架构
 
-![系统架构](pic/system.png)
+![系统架构](./pic/system.png)
 
 ## 代码信息
 
