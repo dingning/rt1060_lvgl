@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ding ning, sn, LIC=EXJT4-F0RPV-FWU2N-YANY5-ZMP31-VJ9PR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  C:\app\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\dingning\rt1060_lvgl\imxrt1060-nxp-evk\project.uvprojx
+Project File Date:  08/05/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\app\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'rtthread'
+applications/alarm_timer.c(31): warning: implicit declaration of function 'msg_box_alarm_up' is invalid in C99 [-Wimplicit-function-declaration]
+                        msg_box_alarm_up(buff);
+                        ^
+applications/alarm_timer.c(49): warning: implicit declaration of function 'msg_box_alarm_up' is invalid in C99 [-Wimplicit-function-declaration]
+                        msg_box_alarm_up(buff);
+                        ^
+2 warnings generated.
+compiling alarm_timer.c...
+linking...
+.\board\linker_scripts\link.sct(38): warning: L6314W: No section matches pattern *(RamFunction).
+.\board\linker_scripts\link.sct(39): warning: L6314W: No section matches pattern *(NonCacheable.init).
+.\board\linker_scripts\link.sct(41): warning: L6314W: No section matches pattern *(DataQuickAccess).
+.\board\linker_scripts\link.sct(48): warning: L6314W: No section matches pattern *(CodeQuickAccess).
+Program Size: Code=329512 RO-data=501872 RW-data=3124 ZI-data=31585228  
+Finished: 0 information, 4 warning and 0 error messages.
+FromELF: creating hex file...
+".\build\keil\Obj\rtthread.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: NXP
+                https://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.MIMXRT1062_DFP.14.0.0.pack
+                NXP.MIMXRT1062_DFP.14.0.0
+                Device Family Pack for MIMXRT1062
+
+<h2>Collection of Component include folders:</h2>
+  C:\app\Arm\Packs\NXP\MIMXRT1062_DFP\14.0.0
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

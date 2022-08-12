@@ -1,0 +1,32 @@
+[
+ {
+  "path": "/packages/iot/pahomqtt", 
+  "ver": "v1.1.0", 
+  "name": "PAHOMQTT"
+ }, 
+ {
+  "path": "/packages/iot/tcpserver", 
+  "ver": "latest", 
+  "name": "TCPSERVER"
+ }, 
+ {
+  "path": "/packages/iot/zFTP", 
+  "ver": "latest", 
+  "name": "ZFTP"
+ }, 
+ {
+  "path": "/packages/language/JSON/cJSON", 
+  "ver": "v1.0.2", 
+  "name": "CJSON"
+ }, 
+ {
+  "path": "/packages/multimedia/LVGL/LVGL", 
+  "ver": "v8.3.0", 
+  "name": "LVGL"
+ }, 
+ {
+  "path": "/packages/multimedia/LVGL/lv_music_demo", 
+  "ver": "v0.3.0", 
+  "name": "LV_MUSIC_DEMO"
+ }
+]
