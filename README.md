@@ -21,11 +21,11 @@ PC：运行MQTT Broker、MQTTX、FTP Server、netassistant、网易邮箱查看�
 ## 代码信息
 
 AT_Device：驱动ESP32，生成wifi网卡  
-at_socket：对接netdev进行socket编程
-cJSON：mqtt上班信息采用json格式
+at_socket：对接netdev进行socket编程  
+cJSON：mqtt上班信息采用json格式  
 **MAIL组件：连接SMTP服务器，发送报警邮件**  
-dfs文件系统：用来存储日志
-**ulog：记录日志并保存到文件**
+dfs文件系统：用来存储日志  
+**ulog：记录日志并保存到文件**  
 **FTP组件：上传本地文件到FTP Server**  
 湿度线程：定期读取DHT11湿度  
 温度线程：定期读取DHT11温度  
